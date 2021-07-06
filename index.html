@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment One</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
@@ -38,7 +39,7 @@
     </section>
     <section class="recipe-section">
         <div class="recipe-title">
-            <h2>My Recipes</h2>
+            <h1>My Recipes</h1>
             <p>Checkout our delicious recipes form here.<br />We have over 200+ recipe in our restaurant</p>
         </div>
         <div class="recipe-container display-flex">
@@ -62,6 +63,79 @@
             </div>
         </div>
     </section>
+    <section class="counter-section display-flex">
+        <div class="single-counter">
+            <h2>700K</h2>
+            <p>Youtube Subscribers</p>
+        </div>
+        <div class="single-counter">
+            <h2>2.4M</h2>
+            <p>Instagram Followers</p>
+        </div>
+        <div class="single-counter">
+            <h2>100K</h2>
+            <p>Dribbble Shot Likes</p>
+        </div>
+    </section>
+    <section class="chef-section">
+        <div class="recipe-title">
+            <h1>Meet The Chefs</h1>
+            <p>A chef is a trained professional cook and tradesman who is proficient in all<br /> aspects of food
+                preparation, often focusing on a particular cuisine.</p>
+        </div>
+        <div class="chef-area display-flex">
+            <div class="single-chef">
+                <img src="images/chef-one.jpg" alt="Jhon Doe" />
+                <h3>Jhon Doe <span class="chef-designation">Master Chef</span></h3>
+            </div>
+            <div class="single-chef">
+                <img src="images/chef-two.jpg" alt="Jimmy Parkar" />
+                <h3>Jimmy Parkar <span class="chef-designation">Assitant Chef</span></h3>
+            </div>
+            <div class="single-chef">
+                <img src="images/chef-three.jpg" alt="Angela black" />
+                <h3>Angela Black <span class="chef-designation">Co Chef</span></h3>
+            </div>
+            <div class="single-chef">
+                <img src="images/chef-four.jpg" alt="Linda Markel" />
+                <h3>Linda Markel <span class="chef-designation">Assitant Chef</span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="reservtion-section">
+        <div class="recipe-title">
+            <h1>Reservation</h1>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+            <div class="display-flex">
+                <input type="text" id="name" name="name" placeholder="Name" />
+                <input type="email" id="email" name="email" placeholder="Email" />
+                <input type="text" id="phone" name="phone" placeholder="Phone" />
+            </div>
+            <div class="display-flex">
+                <select name="person" id="person">
+                    <option value="*">Select Person</option>
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                    <option value="8-person">8 Person</option>
+                </select>
+                <input type="date" id="date" name="date" placeholder="Date">
+                <input type="time" name="time" min="09:00" max="18:00" id="time" placeholder="Time">
+            </div>
+            <input class="order-button" type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="footer-area">
+        <h1><span>FOOD</span> PANDA</h1>
+        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+    </footer>
+
 </body>
 
 </html>
